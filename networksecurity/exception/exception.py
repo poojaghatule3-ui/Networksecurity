@@ -21,5 +21,4 @@ if __name__=='__main__':
     except Exception as e:
         logger.exception("An error occurred")
         raise NetworksecurityException(e, sys) from e
-
     
